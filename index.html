@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Ethan's Budget Tool</title>
+</head>
+<body>
+    <header>Ethan's Budget Tool</header>
+    <main>
+        <form id="budgetform">
+            <label for="income">Income:</label>
+            <input type="text" id="income-num" placeholder="Number">
+            <button id="submit-entry" type="submit">Submit</button>
+            <button id="clear-entry" type="submit">Clear</button>
+            <br>
+            <p id="sixty"> </p>
+            <br>
+            <p id="twenty"> </p>
+            <br>
+            <p id="twentytwo"> </p>
+        </form>
+    </main>
+    <section>
+    <form id="nc-budget-list-form">
+        <label for="budget-list-entry">Transactions Necessities:</label>
+        <input type="text" name="budget-list-entry" id="budget-list-entry" placeholder="Title">
+        <input type="text" name="budget-list-cost" id="budget-list-cost" placeholder="cost">
+        <button id="add-item-btn" type="submit">Add</button>
+    </form>
+    <br>
+    <form id="wa-budget-list-form">
+        <label for="budget-list-entry">Transactions Wants:</label>
+        <input type="text" name="budget-list-entry" id="wa-budget-list-entry" placeholder="Title">
+        <input type="text" name="budget-list-cost" id="wa-budget-list-cost" placeholder="cost">
+        <button id="add-item-btn" type="submit">Add</button>
+    </form>
+    <br>
+    <form id="sv-budget-list-form">
+        <label for="budget-list-entry">Transactions Savings:</label>
+        <input type="text" name="budget-list-entry" id="sv-budget-list-entry" placeholder="Title">
+        <input type="text" name="budget-list-cost" id="sv-budget-list-cost" placeholder="cost">
+        <button id="add-item-btn" type="submit">Add</button>
+    </form>
+    <ul class="budget-list">
+    </ul>
+    </section>
+    <script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
