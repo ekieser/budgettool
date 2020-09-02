@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+main {
+    width: 380px;
+    height: 250px;
+    margin-bottom: 90px;
+}
+
+section {
+    width: 700px;
+    height: 350px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px 16px;
+}
+
+#budgetform {
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px 16px;
+}
+
+#submit-entry, #add-item-btn, #clear-entry {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: black;
+    height: 25px;
+}
+
+#clear-entry {
+    background-color: red;
+}
